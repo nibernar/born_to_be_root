@@ -100,11 +100,11 @@ Intalation des packages :
 * Dans le terminal, editer le fichier de config /etc/ssh/ssh_config -> vim/etc/ssh/ssh_config<br/>
 	- ligne 38 : "#port22" -> "port 4242"<br/>
 * Reboot ssh avec la commande -> /etc/init.d/ssh reload<br/>
-Commande de ssh :
-* virifier l'etat de ssh -> systemctl status sshd<br/>
-* Se conntecter a la vm depuis notre machine hote -> ssh <login>@<ip de l'ordi> -p 4242<br/>
-* Stopper une VM -> sudo shutdown now<br/>
-* Pour trouver l'ip de l'ordi -> ifconfig | grep 'inet'<br/>
+* Commande de ssh :
+    - virifier l'etat de ssh -> systemctl status sshd<br/>
+    - Se conntecter a la vm depuis notre machine hote -> ssh <login>@<ip de l'ordi> -p 4242<br/>
+    - Stopper une VM -> sudo shutdown now<br/>
+    - Pour trouver l'ip de l'ordi -> ifconfig | grep 'inet'<br/>
 
 #### Editer le fichier sudo
 * Passer en mode su.<br/>
